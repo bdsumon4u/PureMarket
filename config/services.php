@@ -44,8 +44,8 @@ return [
 
     'logo' => [
         'desktop' => [
-            'width' => 220,
-            'height' => 40
+            'width' => 260,
+            'height' => 54
         ],
         'mobile' => [
             'width' => 150,
@@ -66,5 +66,13 @@ return [
         'desktop' => [840, 395],
     ],
 
-    'tidio' => env('TIDIO_KEY'),
+    'bdwebs' => [
+        'api_key' => env('BDWEBS_API_KEY'),
+        'senderid' => env('BDWEBS_SENDERID'),
+    ],
+
+    'greenweb' => [
+        'token' => env('GREENWEB_TOKEN'),
+    ]
+
 ];
